@@ -1,20 +1,26 @@
 package com.example;
 
 /**
- * This is a class.
+ * 
+ * @author vaibhavgoyal
+ *
  */
 public class Greeter {
 
-	/**
-	 * This is a constructor.
-	 */
+/**
+* 
+* @author vaibhavgoyal
+*
+*/
 	public Greeter() {
 
 	}
 
-	/**
-	 * This is a Test
-	 */
+/**
+* 
+* @author vaibhavgoyal
+*
+*/
 	public final String greet(final String someone) {
 		return String.format("Hello, %s!", someone);
 	}
